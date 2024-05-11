@@ -12,8 +12,16 @@ const fontClass = cn("min-h-screen bg-background font-sans antialiased", fontSan
 
 export const metadata: Metadata = {
   title: "SharingShare",
-  description: "",
-};
+  description: "Share things with others.",
+  referrer: 'origin-when-cross-origin',
+  keywords: ['sharing', 'share', 'thing', 'stuff'],
+  category: 'Service provider',
+  authors: [{ name: 'Michał Wieczorek', url: 'https://github.com/Michallesss' }, { name: 'Antoni Kijjaroentorn', url: 'https://github.com/modern-tony'}],
+  manifest: 'url',
+  robots: 'index, follow',
+  openGraph: {},
+  // appLinks: {}, 
+}; // https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadata-fields
 
 export default function RootLayout({
   children,
