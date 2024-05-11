@@ -1,5 +1,11 @@
+'use client';
+import NavBar from "@/components/NavBar";
+
 export default function Landing() {
   return (
-    <h1>Landing page</h1>
+    <>
+      <NavBar />
+      <center>Landing</center>
+    </>
   );
 }
