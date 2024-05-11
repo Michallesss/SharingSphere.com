@@ -1,6 +1,5 @@
-'use client';
-import { redirect } from "next/navigation";
+import Sign from "@/components/Sign";
 
-export default function Trade() {
-  return redirect("/sign/in");
+export default function SignUpPage() {
+  return <Sign Up/>;
 }
