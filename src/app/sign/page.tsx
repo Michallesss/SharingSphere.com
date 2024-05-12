@@ -1,5 +1,5 @@
 import Sign from "@/components/Sign";
 
-export default function SignUpPage() {
+export default function SignPage() {
   return <Sign Up/>;
 }
